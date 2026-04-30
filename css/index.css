@@ -1,0 +1,31 @@
+
+img {
+    max-width: 100%;
+}
+
+#hidden {
+    display: none;
+}
+
+/* title */
+#title {
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    #title {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #title {
+        font-size: 5rem;
+    }
+}
+
+/* subtitle */
+#subtitle {
+    color: rgb(57, 160, 64);
+}
+
