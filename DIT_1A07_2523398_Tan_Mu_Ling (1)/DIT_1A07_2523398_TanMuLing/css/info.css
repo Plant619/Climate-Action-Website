@@ -1,0 +1,65 @@
+h2 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+div#background {
+    background-image: url(../images/background_image_info_pexels-matthew-montrone_FED.jpg);
+    background-color: rgba(255,255,255,0.7);
+    /* Lightens the dark parts of image but light parts remain unchanged */
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Makes the background fixed in place when you scroll */
+    background-attachment: fixed;
+}
+
+.card-body {
+    background-color: rgb(128, 161, 121);
+    color: white;
+}
+
+.green_text {
+    color: #30a035; 
+}
+
+/* Accordion */
+.accordion-button {
+    background-color: rgba(200, 230, 201, 0.8); 
+    color: rgb(38,83,67); 
+}
+
+
+.accordion-body{
+    background-color: rgba(255, 255, 240, 0.8);
+}
+
+.accordion-button:focus {    
+  /*     Sets spread radius of the shadow     */
+  box-shadow: 0 0 2px 0.25rem rgba(0, 128, 0, 0.5);  
+}
+
+
+/* Carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgb(0, 0, 0);
+}
+
+.carousel-control-prev {
+    left: -5rem; 
+}
+.carousel-control-next {
+    right: -5rem; 
+}
+
+@media (max-width: 992px) {
+    .carousel-control-prev {
+        left: -2rem; 
+    }
+    .carousel-control-next {
+        right: -2rem; 
+    }
+}
